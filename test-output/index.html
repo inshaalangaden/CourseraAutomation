@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Coursera_POM_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Coursera POM Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Coursera_POM_Suite" class="navigator-link ">
+                    <span>C:\Users\2400875\OneDrive - Cognizant\Desktop\LEARN\Selenium Hands-on\Coursera_Automation\src\test\resources\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Coursera_POM_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Coursera_POM_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Coursera_POM_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Coursera_POM_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Coursera_POM_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Coursera_POM_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Coursera_POM_Suite" class="hide-methods failed suite-Coursera_POM_Suite"> (hide)</a> <!-- hide-methods failed suite-Coursera_POM_Suite -->
+                      <a href="#" panel-name="suite-Coursera_POM_Suite" class="show-methods failed suite-Coursera_POM_Suite"> (show)</a> <!-- show-methods failed suite-Coursera_POM_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Coursera_POM_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)">fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Coursera_POM_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Coursera_POM_Suite" class="hide-methods passed suite-Coursera_POM_Suite"> (hide)</a> <!-- hide-methods passed suite-Coursera_POM_Suite -->
+                      <a href="#" panel-name="suite-Coursera_POM_Suite" class="show-methods passed suite-Coursera_POM_Suite"> (show)</a> <!-- show-methods passed suite-Coursera_POM_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Coursera_POM_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)">fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)">fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)">fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)">fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)">fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)">fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)">fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)">fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="FillFormTest" class="method navigator-link" hash-for-method="fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)">fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="findLevelTest" class="method navigator-link" hash-for-method="levelSearch">levelSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="findLevelTest" class="method navigator-link" hash-for-method="levelSearch">levelSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="searchSeleniumTest" class="method navigator-link" hash-for-method="searchSeleniumJava">searchSeleniumJava</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Coursera_POM_Suite" title="searchSeleniumTest" class="method navigator-link" hash-for-method="searchSeleniumJava">searchSeleniumJava</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Coursera_POM_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Coursera_POM_Suite" class="panel Coursera_POM_Suite">
+          <div class="suite-Coursera_POM_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">FillFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)">
+                  </a> <!-- fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(5,Alex,Smith,alex.s@uni.edu,1234567890,Graduate or Professional School,,Student,Executive Leadership,Learner Support,Greece,Negative)</span>
+                  <div class="stack-trace">org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:157)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:147)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:191)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:210)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:518)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:491)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:67)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:318)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:292)
+	at com.coursera.utils.ExcelUtils.setCellData(ExcelUtils.java:43)
+	at FillFormTest.fillForm(FillFormTest.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Coursera_POM_Suite-class-failed -->
+          <div class="suite-Coursera_POM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">searchSeleniumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchSeleniumJava">
+                  </a> <!-- searchSeleniumJava -->
+                  <span class="method-name">searchSeleniumJava</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchSeleniumJava">
+                  </a> <!-- searchSeleniumJava -->
+                  <span class="method-name">searchSeleniumJava</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Coursera_POM_Suite-class-passed -->
+          <div class="suite-Coursera_POM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FillFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)">
+                  </a> <!-- fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(3,Alex,Smith,INVALID_EMAIL,1234567890,University/4 Year College,Global Tech Uni,Professor,Academic Affairs,Courses for myself,Brazil,Negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)">
+                  </a> <!-- fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(4,Alex,Smith,alex.s@gmail.com,123E456,University/4 Year College,Global Tech Uni,Professor,Academic Affairs,Existing customer support,China,Negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)">
+                  </a> <!-- fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(1,Alex,Smith,alex.s@university.edu,1234567890,University/4 Year College,Global Tech Uni,Professor,Academic Affairs,Existing customer support,Albania,Positive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)">
+                  </a> <!-- fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(2,Jordan,Lee,jlee@college.ca,987654321,2 Year College,North Bay Inst,Dean,Executive Leadership,Learner Support,Austria,Positive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)">
+                  </a> <!-- fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(2,Jordan,Lee,jlee@college.ca,987654321,2 Year College,North Bay Inst,Dean,Executive Leadership,Learner Support,Austria,Positive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)">
+                  </a> <!-- fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(4,Alex,Smith,alex.s@gmail.com,123E456,University/4 Year College,Global Tech Uni,Professor,Academic Affairs,Existing customer support,China,Negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)">
+                  </a> <!-- fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(3,Alex,Smith,INVALID_EMAIL,1234567890,University/4 Year College,Global Tech Uni,Professor,Academic Affairs,Courses for myself,Brazil,Negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)">
+                  </a> <!-- fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(1,Alex,Smith,alex.s@university.edu,1234567890,University/4 Year College,Global Tech Uni,Professor,Academic Affairs,Existing customer support,Albania,Positive)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)">
+                  </a> <!-- fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...) -->
+                  <span class="method-name">fillForm</span>
+                  <span class="parameters">(5,Alex,Smith,alex.s@uni.edu,1234567890,Graduate or Professional School,,Student,Executive Leadership,Learner Support,Greece,Negative)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Coursera_POM_Suite-class-passed -->
+          <div class="suite-Coursera_POM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">findLevelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="levelSearch">
+                  </a> <!-- levelSearch -->
+                  <span class="method-name">levelSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="levelSearch">
+                  </a> <!-- levelSearch -->
+                  <span class="method-name">levelSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Coursera_POM_Suite-class-passed -->
+        </div> <!-- panel Coursera_POM_Suite -->
+        <div panel-name="test-xml-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2400875\OneDrive - Cognizant\Desktop\LEARN\Selenium Hands-on\Coursera_Automation\src\test\resources\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Coursera POM Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;EdgeTests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;searchSeleniumTest&quot;/&gt;
+      &lt;class name=&quot;findLevelTest&quot;/&gt;
+      &lt;class name=&quot;FillFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ChromeTests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;searchSeleniumTest&quot;/&gt;
+      &lt;class name=&quot;findLevelTest&quot;/&gt;
+      &lt;class name=&quot;FillFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTests --&gt;
+&lt;/suite&gt; &lt;!-- Coursera POM Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Coursera POM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EdgeTests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Coursera POM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Coursera POM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Coursera_POM_Suite');
+function tableData_Coursera_POM_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fillForm')
+data.setCell(0, 2, 'FillFormTest')
+data.setCell(0, 3, 119332);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fillForm')
+data.setCell(1, 2, 'FillFormTest')
+data.setCell(1, 3, 113615);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillForm')
+data.setCell(2, 2, 'FillFormTest')
+data.setCell(2, 3, 100441);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fillForm')
+data.setCell(3, 2, 'FillFormTest')
+data.setCell(3, 3, 91022);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fillForm')
+data.setCell(4, 2, 'FillFormTest')
+data.setCell(4, 3, 89154);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fillForm')
+data.setCell(5, 2, 'FillFormTest')
+data.setCell(5, 3, 88038);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fillForm')
+data.setCell(6, 2, 'FillFormTest')
+data.setCell(6, 3, 87928);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fillForm')
+data.setCell(7, 2, 'FillFormTest')
+data.setCell(7, 3, 74913);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fillForm')
+data.setCell(8, 2, 'FillFormTest')
+data.setCell(8, 3, 74355);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'fillForm')
+data.setCell(9, 2, 'FillFormTest')
+data.setCell(9, 3, 72897);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'levelSearch')
+data.setCell(10, 2, 'findLevelTest')
+data.setCell(10, 3, 12130);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'levelSearch')
+data.setCell(11, 2, 'findLevelTest')
+data.setCell(11, 3, 11293);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchSeleniumJava')
+data.setCell(12, 2, 'searchSeleniumTest')
+data.setCell(12, 3, 6710);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchSeleniumJava')
+data.setCell(13, 2, 'searchSeleniumTest')
+data.setCell(13, 3, 5938);
+window.suiteTableData['Coursera_POM_Suite']= { tableData: data, tableDiv: 'times-div-Coursera_POM_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Coursera_POM_Suite">
+              </div> <!-- times-div-Coursera_POM_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Coursera POM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Coursera_POM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">searchSeleniumTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchSeleniumJava</span>
+                <span class="method-start">6350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchSeleniumJava</span>
+                <span class="method-start">6626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13336 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">findLevelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">16011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">17351 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">levelSearch</span>
+                <span class="method-start">20950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">levelSearch</span>
+                <span class="method-start">21966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33259 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FillFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">37699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">37699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">37699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">37700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">37700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">37700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)</span>
+                <span class="method-start">61703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)</span>
+                <span class="method-start">63229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)</span>
+                <span class="method-start">63375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Le...)</span>
+                <span class="method-start">64257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)</span>
+                <span class="method-start">64991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Ac...)</span>
+                <span class="method-start">66257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)</span>
+                <span class="method-start">69465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadersh...)</span>
+                <span class="method-start">70140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Ac...)</span>
+                <span class="method-start">81390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillForm(1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Profe...)</span>
+                <span class="method-start">89430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">154145 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">154271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">154287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">170582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">179872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">188797 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

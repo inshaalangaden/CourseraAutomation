@@ -1,0 +1,237 @@
+2026-02-05 11:39:35 INFO  - Setting up the browser
+2026-02-05 11:39:46 INFO  - TEST: Serach Selenium Java in search bar
+2026-02-05 11:39:46 INFO  - ***** Searching for:Selenium Java *****
+2026-02-05 11:39:53 INFO  - ***** filtering based on duration of course *****
+2026-02-05 11:39:53 INFO  - ***** Printing the first course title in the console *****
+2026-02-05 11:39:54 INFO  - Closing the browser
+2026-02-05 11:39:57 INFO  - Setting up the browser
+2026-02-05 11:40:02 INFO  - TEST: Extracting the level of the first Python course
+2026-02-05 11:40:02 INFO  - ***** Selecting the first python course *****
+2026-02-05 11:40:08 INFO  - ***** Switching tab after clicking first Python course *****
+2026-02-05 11:40:08 INFO  - ***** Printing the level of the course in console *****
+2026-02-05 11:40:15 INFO  - Closing the browser
+2026-02-05 11:40:21 INFO  - Setting up the browser
+2026-02-05 11:40:26 INFO  - TEST: Navigate to universities
+2026-02-05 11:40:26 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:40:36 INFO  - TEST: Click contact us
+2026-02-05 11:40:36 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:40:41 INFO  - TEST: fill the form
+2026-02-05 11:40:41 INFO  - ***** Filling the form *****
+2026-02-05 11:40:43 INFO  - TEST: Submit the form
+2026-02-05 11:40:43 INFO  - ***** Click submit button *****
+2026-02-05 11:40:43 INFO  - ***** Return the alert *****
+2026-02-05 11:40:54 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:40:54 INFO  - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-05 11:40:54 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:40:54 INFO  - Closing the browser
+2026-02-05 11:41:00 INFO  - Setting up the browser
+2026-02-05 11:41:05 INFO  - TEST: Navigate to universities
+2026-02-05 11:41:05 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:41:11 INFO  - TEST: Click contact us
+2026-02-05 11:41:11 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:41:15 INFO  - TEST: fill the form
+2026-02-05 11:41:15 INFO  - ***** Filling the form *****
+2026-02-05 11:41:18 INFO  - TEST: Submit the form
+2026-02-05 11:41:18 INFO  - ***** Click submit button *****
+2026-02-05 11:41:18 INFO  - ***** Return the alert *****
+2026-02-05 11:41:28 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:41:28 INFO  - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-05 11:41:28 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:41:28 INFO  - Closing the browser
+2026-02-05 11:41:33 INFO  - Setting up the browser
+2026-02-05 11:41:39 INFO  - TEST: Navigate to universities
+2026-02-05 11:41:39 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:41:46 INFO  - TEST: Click contact us
+2026-02-05 11:41:46 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:41:50 INFO  - TEST: fill the form
+2026-02-05 11:41:50 INFO  - ***** Filling the form *****
+2026-02-05 11:41:53 INFO  - TEST: Submit the form
+2026-02-05 11:41:53 INFO  - ***** Click submit button *****
+2026-02-05 11:41:53 INFO  - ***** Return the alert *****
+2026-02-05 11:41:53 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:41:53 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:41:53 INFO  - Closing the browser
+2026-02-05 11:41:57 INFO  - Setting up the browser
+2026-02-05 11:42:03 INFO  - TEST: Navigate to universities
+2026-02-05 11:42:03 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:42:17 INFO  - TEST: Click contact us
+2026-02-05 11:42:17 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:42:22 INFO  - TEST: fill the form
+2026-02-05 11:42:22 INFO  - ***** Filling the form *****
+2026-02-05 11:42:25 INFO  - TEST: Submit the form
+2026-02-05 11:42:25 INFO  - ***** Click submit button *****
+2026-02-05 11:42:25 INFO  - ***** Return the alert *****
+2026-02-05 11:42:25 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:42:25 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:42:25 INFO  - Closing the browser
+2026-02-05 11:42:29 INFO  - Setting up the browser
+2026-02-05 11:42:35 INFO  - TEST: Navigate to universities
+2026-02-05 11:42:35 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:42:49 INFO  - TEST: Click contact us
+2026-02-05 11:42:49 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:42:53 INFO  - TEST: fill the form
+2026-02-05 11:42:53 INFO  - ***** Filling the form *****
+2026-02-05 11:42:56 INFO  - TEST: Submit the form
+2026-02-05 11:42:56 INFO  - ***** Click submit button *****
+2026-02-05 11:42:56 INFO  - ***** Return the alert *****
+2026-02-05 11:42:56 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:42:56 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:42:56 INFO  - Closing the browser
+2026-02-05 11:44:20 INFO  - Setting up the browser
+2026-02-05 11:44:27 INFO  - TEST: Serach Selenium Java in search bar
+2026-02-05 11:44:28 INFO  - ***** Searching for:Selenium Java *****
+2026-02-05 11:44:33 INFO  - ***** filtering based on duration of course *****
+2026-02-05 11:44:34 INFO  - ***** Printing the first course title in the console *****
+2026-02-05 11:44:35 INFO  - Closing the browser
+2026-02-05 11:44:38 INFO  - Setting up the browser
+2026-02-05 11:44:44 INFO  - TEST: Extracting the level of the first Python course
+2026-02-05 11:44:44 INFO  - ***** Selecting the first python course *****
+2026-02-05 11:44:50 INFO  - ***** Switching tab after clicking first Python course *****
+2026-02-05 11:44:50 INFO  - ***** Printing the level of the course in console *****
+2026-02-05 11:44:54 INFO  - Closing the browser
+2026-02-05 11:44:59 INFO  - Setting up the browser
+2026-02-05 11:45:04 INFO  - TEST: Navigate to universities
+2026-02-05 11:45:04 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:45:11 INFO  - TEST: Click contact us
+2026-02-05 11:45:11 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:45:15 INFO  - TEST: fill the form
+2026-02-05 11:45:15 INFO  - ***** Filling the form *****
+2026-02-05 11:45:17 INFO  - TEST: Submit the form
+2026-02-05 11:45:17 INFO  - ***** Click submit button *****
+2026-02-05 11:45:17 INFO  - ***** Return the alert *****
+2026-02-05 11:45:28 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:45:28 INFO  - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-05 11:45:28 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:45:28 INFO  - Closing the browser
+2026-02-05 11:45:33 INFO  - Setting up the browser
+2026-02-05 11:45:39 INFO  - TEST: Navigate to universities
+2026-02-05 11:45:39 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:45:47 INFO  - TEST: Click contact us
+2026-02-05 11:45:47 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:45:51 INFO  - TEST: fill the form
+2026-02-05 11:45:51 INFO  - ***** Filling the form *****
+2026-02-05 11:45:54 INFO  - TEST: Submit the form
+2026-02-05 11:45:54 INFO  - ***** Click submit button *****
+2026-02-05 11:45:54 INFO  - ***** Return the alert *****
+2026-02-05 11:46:04 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:46:04 INFO  - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-05 11:46:04 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:46:04 INFO  - Closing the browser
+2026-02-05 11:46:09 INFO  - Setting up the browser
+2026-02-05 11:46:15 INFO  - TEST: Navigate to universities
+2026-02-05 11:46:15 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:46:24 INFO  - TEST: Click contact us
+2026-02-05 11:46:24 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:46:27 INFO  - TEST: fill the form
+2026-02-05 11:46:27 INFO  - ***** Filling the form *****
+2026-02-05 11:46:29 INFO  - TEST: Submit the form
+2026-02-05 11:46:29 INFO  - ***** Click submit button *****
+2026-02-05 11:46:29 INFO  - ***** Return the alert *****
+2026-02-05 11:46:29 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:46:29 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:46:30 INFO  - Closing the browser
+2026-02-05 11:46:33 INFO  - Setting up the browser
+2026-02-05 11:46:38 INFO  - TEST: Navigate to universities
+2026-02-05 11:46:38 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:46:46 INFO  - TEST: Click contact us
+2026-02-05 11:46:46 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:46:51 INFO  - TEST: fill the form
+2026-02-05 11:46:51 INFO  - ***** Filling the form *****
+2026-02-05 11:46:53 INFO  - TEST: Submit the form
+2026-02-05 11:46:53 INFO  - ***** Click submit button *****
+2026-02-05 11:46:53 INFO  - ***** Return the alert *****
+2026-02-05 11:46:54 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:46:54 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:46:54 INFO  - Closing the browser
+2026-02-05 11:46:57 INFO  - Setting up the browser
+2026-02-05 11:47:01 INFO  - TEST: Navigate to universities
+2026-02-05 11:47:01 INFO  - ***** Navigating to forUniversities page *****
+2026-02-05 11:47:07 INFO  - TEST: Click contact us
+2026-02-05 11:47:07 INFO  - ***** Clcik contactUs button *****
+2026-02-05 11:47:10 INFO  - TEST: fill the form
+2026-02-05 11:47:10 INFO  - ***** Filling the form *****
+2026-02-05 11:47:11 INFO  - TEST: Submit the form
+2026-02-05 11:47:11 INFO  - ***** Click submit button *****
+2026-02-05 11:47:12 INFO  - ***** Return the alert *****
+2026-02-05 11:47:12 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:47:12 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:47:12 INFO  - Closing the browser
+2026-02-05 11:54:55 INFO  - Setting up the browser
+2026-02-05 11:55:00 INFO  - TEST: Serach Selenium Java in search bar
+2026-02-05 11:55:00 INFO  - PAGE: Searching for:Selenium Java
+2026-02-05 11:55:05 INFO  - PAGE: filtering based on duration of course
+2026-02-05 11:55:06 INFO  - PAGE: Printing the first course title in the console
+2026-02-05 11:55:07 INFO  - Closing the browser
+2026-02-05 11:55:11 INFO  - Setting up the browser
+2026-02-05 11:55:17 INFO  - TEST: Extracting the level of the first Python course
+2026-02-05 11:55:17 INFO  - PAGE: Selecting the first python course
+2026-02-05 11:55:22 INFO  - PAGE: Switching tab after clicking first Python course
+2026-02-05 11:55:22 INFO  - PAGE: Printing the level of the course in console
+2026-02-05 11:55:29 INFO  - Closing the browser
+2026-02-05 11:55:34 INFO  - Setting up the browser
+2026-02-05 11:55:39 INFO  - TEST: Navigate to universities
+2026-02-05 11:55:39 INFO  - PAGE: Navigating to forUniversities page
+2026-02-05 11:55:47 INFO  - TEST: Click contact us
+2026-02-05 11:55:47 INFO  - PAGE: Clcik contactUs button
+2026-02-05 11:55:52 INFO  - TEST: fill the form
+2026-02-05 11:55:52 INFO  - PAGE: Filling the form
+2026-02-05 11:55:55 INFO  - TEST: Submit the form
+2026-02-05 11:55:55 INFO  - PAGE: Click submit button
+2026-02-05 11:55:55 INFO  - PAGE: Return the alert
+2026-02-05 11:56:05 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:56:05 INFO  - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-05 11:56:05 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:56:06 INFO  - Closing the browser
+2026-02-05 11:56:11 INFO  - Setting up the browser
+2026-02-05 11:56:17 INFO  - TEST: Navigate to universities
+2026-02-05 11:56:17 INFO  - PAGE: Navigating to forUniversities page
+2026-02-05 11:56:26 INFO  - TEST: Click contact us
+2026-02-05 11:56:26 INFO  - PAGE: Clcik contactUs button
+2026-02-05 11:56:30 INFO  - TEST: fill the form
+2026-02-05 11:56:30 INFO  - PAGE: Filling the form
+2026-02-05 11:56:33 INFO  - TEST: Submit the form
+2026-02-05 11:56:33 INFO  - PAGE: Click submit button
+2026-02-05 11:56:33 INFO  - PAGE: Return the alert
+2026-02-05 11:56:43 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:56:43 INFO  - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-05 11:56:43 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:56:43 INFO  - Closing the browser
+2026-02-05 11:56:48 INFO  - Setting up the browser
+2026-02-05 11:56:53 INFO  - TEST: Navigate to universities
+2026-02-05 11:56:53 INFO  - PAGE: Navigating to forUniversities page
+2026-02-05 11:57:01 INFO  - TEST: Click contact us
+2026-02-05 11:57:01 INFO  - PAGE: Clcik contactUs button
+2026-02-05 11:57:04 INFO  - TEST: fill the form
+2026-02-05 11:57:04 INFO  - PAGE: Filling the form
+2026-02-05 11:57:07 INFO  - TEST: Submit the form
+2026-02-05 11:57:07 INFO  - PAGE: Click submit button
+2026-02-05 11:57:07 INFO  - PAGE: Return the alert
+2026-02-05 11:57:07 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:57:07 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:57:08 INFO  - Closing the browser
+2026-02-05 11:57:11 INFO  - Setting up the browser
+2026-02-05 11:57:17 INFO  - TEST: Navigate to universities
+2026-02-05 11:57:17 INFO  - PAGE: Navigating to forUniversities page
+2026-02-05 11:57:24 INFO  - TEST: Click contact us
+2026-02-05 11:57:24 INFO  - PAGE: Clcik contactUs button
+2026-02-05 11:57:28 INFO  - TEST: fill the form
+2026-02-05 11:57:28 INFO  - PAGE: Filling the form
+2026-02-05 11:57:31 INFO  - TEST: Submit the form
+2026-02-05 11:57:31 INFO  - PAGE: Click submit button
+2026-02-05 11:57:31 INFO  - PAGE: Return the alert
+2026-02-05 11:57:31 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:57:31 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:57:31 INFO  - Closing the browser
+2026-02-05 11:57:35 INFO  - Setting up the browser
+2026-02-05 11:57:40 INFO  - TEST: Navigate to universities
+2026-02-05 11:57:40 INFO  - PAGE: Navigating to forUniversities page
+2026-02-05 11:57:47 INFO  - TEST: Click contact us
+2026-02-05 11:57:47 INFO  - PAGE: Clcik contactUs button
+2026-02-05 11:57:51 INFO  - TEST: fill the form
+2026-02-05 11:57:51 INFO  - PAGE: Filling the form
+2026-02-05 11:57:54 INFO  - TEST: Submit the form
+2026-02-05 11:57:54 INFO  - PAGE: Click submit button
+2026-02-05 11:57:54 INFO  - PAGE: Return the alert
+2026-02-05 11:57:54 INFO  - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-05 11:57:54 INFO  - TEST: write the content in resultMessage into the excel sheet
+2026-02-05 11:57:54 INFO  - Closing the browser
