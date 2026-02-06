@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 05 15:41:27 IST 2026</td>
+<td>Started on:</td><td>Fri Feb 06 10:24:25 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>177 seconds (177353 ms)</td>
+<tr><td>Total time:</td><td>235 seconds (235768 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,60 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='FillFormTest.fillForm()'><b>fillForm</b><br>Test class: FillFormTest<br>Parameters: 5, Alex, Smith, alex.s@uni.edu, 1234567890, Graduate or Professional School, , Student, Executive Leadership, Learner Support, Greece, Negative</td>
-<td><div><pre>org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
-	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:157)
-	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
-	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:147)
-	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:191)
-	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:210)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:518)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:491)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:67)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:318)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:292)
-	at com.coursera.utils.ExcelUtils.setCellData(ExcelUtils.java:43)
-	at FillFormTest.fillForm(FillFormTest.java:59)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace906874200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace906874200'><pre>org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
-	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:157)
-	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
-	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:147)
-	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:191)
-	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:210)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:518)
-	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:491)
-	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:67)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:318)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:292)
-	at com.coursera.utils.ExcelUtils.setCellData(ExcelUtils.java:43)
-	at FillFormTest.fillForm(FillFormTest.java:59)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-</pre></div></td>
-<td>91</td>
-<td>FillFormTest@67304a40</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -130,35 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='FillFormTest.fillForm()'><b>fillForm</b><br>Test class: FillFormTest<br>Parameters: 3, Alex, Smith, INVALID_EMAIL, 1234567890, University/4 Year College, Global Tech Uni, Professor, Academic Affairs, Courses for myself, Brazil, Negative</td>
+<td title='findLevelTest.levelSearch()'><b>levelSearch</b><br>Test class: findLevelTest</td>
 <td></td>
-<td>89</td>
-<td>FillFormTest@67304a40</td></tr>
+<td>88</td>
+<td>findLevelTest@6d3c5255</td></tr>
 <tr>
 <td title='searchSeleniumTest.searchSeleniumJava()'><b>searchSeleniumJava</b><br>Test class: searchSeleniumTest</td>
 <td></td>
-<td>5</td>
-<td>searchSeleniumTest@495fac5f</td></tr>
-<tr>
-<td title='FillFormTest.fillForm()'><b>fillForm</b><br>Test class: FillFormTest<br>Parameters: 4, Alex, Smith, alex.s@gmail.com, 123E456, University/4 Year College, Global Tech Uni, Professor, Academic Affairs, Existing customer support, China, Negative</td>
-<td></td>
-<td>72</td>
-<td>FillFormTest@67304a40</td></tr>
-<tr>
-<td title='FillFormTest.fillForm()'><b>fillForm</b><br>Test class: FillFormTest<br>Parameters: 1, Alex, Smith, alex.s@university.edu, 1234567890, University/4 Year College, Global Tech Uni, Professor, Academic Affairs, Existing customer support, Albania, Positive</td>
-<td></td>
-<td>74</td>
-<td>FillFormTest@67304a40</td></tr>
-<tr>
-<td title='FillFormTest.fillForm()'><b>fillForm</b><br>Test class: FillFormTest<br>Parameters: 2, Jordan, Lee, jlee@college.ca, 987654321, 2 Year College, North Bay Inst, Dean, Executive Leadership, Learner Support, Austria, Positive</td>
-<td></td>
-<td>100</td>
-<td>FillFormTest@67304a40</td></tr>
-<tr>
-<td title='findLevelTest.levelSearch()'><b>levelSearch</b><br>Test class: findLevelTest</td>
-<td></td>
-<td>12</td>
-<td>findLevelTest@4b6690c0</td></tr>
+<td>46</td>
+<td>searchSeleniumTest@12ed9db6</td></tr>
 </table><p>
 </body>
 </html>

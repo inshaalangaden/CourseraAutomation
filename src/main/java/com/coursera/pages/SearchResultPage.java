@@ -18,7 +18,6 @@ public class SearchResultPage extends BasePage {
     @FindBy(xpath="h3[class='css-fk6qfz']") WebElement duration_h3;
     @FindBy(xpath="//div[contains(@data-testid,'productDuration:1-3 Months-false')]/label") WebElement month_select;
     @FindBy(xpath="//span[contains(text(),'View')]/parent::button") WebElement view_btn;
-    //By titleLocator = By.xpath("//h3[contains(@class,'cds-CommonCard-title css-6ecy9b')]");
     @FindBy(xpath = "//h3[contains(@class,'cds-CommonCard-title css-6ecy9b')]") WebElement first_title;
 
     public void verification() {
@@ -27,7 +26,6 @@ public class SearchResultPage extends BasePage {
         month_select.click();
         view_btn.click();
         log.info("PAGE: Printing the first course title in the console");
-        //WebElement first_title = wait.until(ExpectedConditions.presenceOfElementLocated(titleLocator));
         System.out.println("Title of the first course: "+ wait.until(ExpectedConditions.visibilityOf(first_title)).getText());
     }
 }

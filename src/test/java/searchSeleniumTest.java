@@ -6,7 +6,7 @@ public class searchSeleniumTest extends BaseTest {
 
     @Test
     public void searchSeleniumJava(){
-        log.info("TEST: Serach Selenium Java in search bar");
+        log.info("TEST: Search Selenium Java");
         HomePage hp = new HomePage(getDriver());
         hp.search("Selenium Java");
         SearchResultPage srp = new SearchResultPage(getDriver());
