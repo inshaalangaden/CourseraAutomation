@@ -28,19 +28,22 @@ public class ExcelUtils {
             Row row = sheet.getRow(i + 1);
             for (int j = 0; j < colCount; j++) {
                 if(row != null && row.getCell(j) != null) {
-                    //data[i][j] = row.getCell(j).toString();
                     data[i][j] = formatter.formatCellValue(row.getCell(j));
                 }else{
-                    data[i][j] = "(empty)";
-                }
+                    data[i][j] = null;                }
             }
         }
         return data;
     }
 
     public static void setCellData(String filePath, String sheetName, int rowNum, String status) throws IOException {
-        FileInputStream fis = new FileInputStream(filePath);
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        XSSFWorkbook workbook = null;
+        try{
+            FileInputStream fis = new FileInputStream(filePath);
+            workbook = new XSSFWorkbook(fis);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
         XSSFSheet sheet = workbook.getSheet(sheetName);
 
         Row headerRow = sheet.getRow(0);
@@ -68,7 +71,5 @@ public class ExcelUtils {
         try (FileOutputStream fos = new FileOutputStream(filePath)) {
             workbook.write(fos);
         }
-        workbook.close();
-        fis.close();
     }
 }

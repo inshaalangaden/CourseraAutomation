@@ -27,7 +27,9 @@ public class FormPage extends BasePage {
     @FindBy(id="Self_Reported_Needs__c") WebElement needs;
     @FindBy(id="Country") WebElement country;
     @FindBy(css= "button[type='submit']") WebElement submitButton;
-    @FindBy(css = "div[role='alert']") WebElement alertMsg;
+    //@FindBy(css = "div[role='alert']") WebElement alertMsg;
+
+    By alertLocator = By.cssSelector("div[role='alert']");
 
     public void fillForm(String fName, String lName, String mail, String phone, String instType, String instName, String role, String dpmt, String need, String cntry){
         log.info("PAGE: Filling the form");
@@ -60,13 +62,13 @@ public class FormPage extends BasePage {
     }
     public boolean isAlertPresent(){
         log.info("PAGE: Return the alert");
-        return !(driver.findElements(By.cssSelector("div[role='alert']")).isEmpty()); //if empty, returns false
+        return !(driver.findElements(alertLocator).isEmpty());
     }
 
     public String getAlert() {
         log.info("PAGE: Return alert message if the alert is present");
 
-        if (isAlertPresent()) return alertMsg.getText();
+        if (isAlertPresent()) return driver.findElement(alertLocator).getText();
         else{
             return "No error present";
         }

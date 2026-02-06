@@ -22,7 +22,6 @@ public class FillFormTest extends BaseTest {
                          String dpmt, String need, String cntry, String testType)throws IOException {
 
         String filePath = System.getProperty("user.dir") + "/src/test/resources/FormData.xlsx";
-        //int currentRow = (int) Double.parseDouble(sNo);
         int currentRow = Integer.parseInt(sNo);
 
         log.info("TEST: Navigate to universities");
@@ -40,9 +39,7 @@ public class FillFormTest extends BaseTest {
         log.info("TEST: Submit the form");
         fp.clickSubmit();
 
-        //Thread.sleep(2000);
-
-        boolean isAlertPresent = fp.isAlertPresent(); //false
+        boolean isAlertPresent = fp.isAlertPresent();
         boolean testPassed = false;
         String resultMessage = "";
 

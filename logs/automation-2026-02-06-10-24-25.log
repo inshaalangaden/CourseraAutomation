@@ -1,0 +1,24 @@
+2026-02-06 10:24:25 INFO  searchSeleniumTest - Setting up the browser
+2026-02-06 10:24:25 INFO  searchSeleniumTest - Setting up the browser
+2026-02-06 10:25:13 INFO  searchSeleniumTest - TEST: Serach Selenium Java in search bar
+2026-02-06 10:25:13 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-06 10:25:13 INFO  searchSeleniumTest - TEST: Serach Selenium Java in search bar
+2026-02-06 10:25:13 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-06 10:25:57 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-06 10:25:58 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-06 10:25:58 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-06 10:25:59 INFO  searchSeleniumTest - Closing the browser
+2026-02-06 10:25:59 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-06 10:26:00 INFO  searchSeleniumTest - Closing the browser
+2026-02-06 10:26:03 INFO  findLevelTest      - Setting up the browser
+2026-02-06 10:26:03 INFO  findLevelTest      - Setting up the browser
+2026-02-06 10:26:49 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-06 10:26:49 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-06 10:26:49 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-06 10:26:49 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-06 10:27:33 INFO  PythonPage         - PAGE: Switching tab after clicking first Python course
+2026-02-06 10:27:33 INFO  PythonPage         - PAGE: Printing the level of the course in console
+2026-02-06 10:27:33 INFO  PythonPage         - PAGE: Switching tab after clicking first Python course
+2026-02-06 10:27:33 INFO  PythonPage         - PAGE: Printing the level of the course in console
+2026-02-06 10:28:17 INFO  findLevelTest      - Closing the browser
+2026-02-06 10:28:17 INFO  findLevelTest      - Closing the browser
