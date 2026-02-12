@@ -1,0 +1,22 @@
+2026-02-12 16:19:40 INFO  searchSeleniumTest - Setting up the browser: CHROME
+2026-02-12 16:19:40 INFO  searchSeleniumTest - Setting up the browser: EDGE
+2026-02-12 16:19:49 INFO  searchSeleniumTest - TEST: Search Selenium Java
+2026-02-12 16:19:49 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-12 16:19:51 INFO  searchSeleniumTest - TEST: Search Selenium Java
+2026-02-12 16:19:51 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-12 16:20:00 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-12 16:20:01 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-12 16:20:02 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-12 16:20:02 INFO  searchSeleniumTest - Closing the browser
+2026-02-12 16:20:03 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-12 16:20:03 INFO  searchSeleniumTest - Closing the browser
+2026-02-12 16:20:10 INFO  findLevelTest      - Setting up the browser: CHROME
+2026-02-12 16:20:11 INFO  findLevelTest      - Setting up the browser: EDGE
+2026-02-12 16:20:21 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-12 16:20:21 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-12 16:20:28 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-12 16:20:28 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-12 16:20:35 INFO  PythonPage         - PAGE: Switching tab after clicking first Python course
+2026-02-12 16:20:35 INFO  PythonPage         - PAGE: Printing the level of the course in console
+2026-02-12 16:20:45 INFO  findLevelTest      - Closing the browser
+2026-02-12 16:20:59 INFO  findLevelTest      - Closing the browser

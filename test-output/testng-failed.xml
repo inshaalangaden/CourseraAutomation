@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Coursera POM Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="ChromeTests(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="findLevelTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="levelSearch"/>
-        </methods>
-      </class> <!-- findLevelTest -->
-    </classes>
-  </test> <!-- ChromeTests(failed) -->
   <test thread-count="3" parallel="tests" name="EdgeTests(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="findLevelTest">
+      <class name="FillFormTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="levelSearch"/>
+          <include name="fillForm"/>
         </methods>
-      </class> <!-- findLevelTest -->
+      </class> <!-- FillFormTest -->
     </classes>
   </test> <!-- EdgeTests(failed) -->
+  <test thread-count="3" parallel="tests" name="ChromeTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FillFormTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="fillForm"/>
+        </methods>
+      </class> <!-- FillFormTest -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
 </suite> <!-- Failed suite [Coursera POM Suite] -->

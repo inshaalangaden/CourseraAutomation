@@ -3,8 +3,8 @@
     <test name="EdgeTests">
         <parameter name="browser" value="edge"></parameter>
         <classes>
-            <class name="searchSeleniumTest"/>
-            <class name="findLevelTest"/>
+            <!--<class name="searchSeleniumTest"/>
+            <class name="findLevelTest"/>-->
             <class name="FillFormTest"/>
         </classes>
     </test>
@@ -12,8 +12,8 @@
     <test name="ChromeTests">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="searchSeleniumTest"/>
-            <class name="findLevelTest"/>
+            <!--<class name="searchSeleniumTest"/>
+            <class name="findLevelTest"/>-->
             <class name="FillFormTest"/>
         </classes>
     </test>

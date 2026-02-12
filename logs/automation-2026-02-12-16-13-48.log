@@ -1,0 +1,56 @@
+2026-02-12 16:13:48 INFO  searchSeleniumTest - Setting up the browser: EDGE
+2026-02-12 16:13:48 INFO  searchSeleniumTest - Setting up the browser: CHROME
+2026-02-12 16:13:56 INFO  searchSeleniumTest - TEST: Search Selenium Java
+2026-02-12 16:13:56 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-12 16:14:02 INFO  searchSeleniumTest - TEST: Search Selenium Java
+2026-02-12 16:14:02 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-12 16:14:05 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-12 16:14:09 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-12 16:14:09 INFO  searchSeleniumTest - Closing the browser
+2026-02-12 16:14:11 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-12 16:14:12 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-12 16:14:13 INFO  searchSeleniumTest - Closing the browser
+2026-02-12 16:14:15 INFO  findLevelTest      - Setting up the browser: EDGE
+2026-02-12 16:14:18 INFO  findLevelTest      - Setting up the browser: CHROME
+2026-02-12 16:14:22 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-12 16:14:22 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-12 16:14:23 INFO  findLevelTest      - Closing the browser
+2026-02-12 16:14:24 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-12 16:14:24 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-12 16:14:25 INFO  findLevelTest      - Closing the browser
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:14:29 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:16:38 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:16:38 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:16:39 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:16:39 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:16:47 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:16:47 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:16:53 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:16:53 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:16:54 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:16:54 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:17:01 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:17:01 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:17:06 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:17:06 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:17:08 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:17:08 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:17:32 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:17:32 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:17:42 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:17:43 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:19:17 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:19:17 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:19:17 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:19:19 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:19:19 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:19:19 INFO  FillFormTest       - Closing the browser

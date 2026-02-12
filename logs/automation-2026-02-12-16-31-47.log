@@ -1,0 +1,134 @@
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 16:31:47 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 16:32:16 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:32:17 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:32:46 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:32:46 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:21 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:21 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:23 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:23 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:24 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:24 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:24 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:24 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:24 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:24 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:28 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:28 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:28 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:28 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:33:29 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 16:33:29 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 16:34:07 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:07 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:08 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:08 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:08 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:08 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:09 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:09 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:17 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:17 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:18 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:18 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:24 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:24 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:24 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:24 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:24 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:24 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:25 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:25 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:31 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:31 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:32 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:32 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:32 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:32 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:32 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:32 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:32 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:32 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:32 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:34 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:34 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:37 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:37 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:38 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:38 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:39 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:39 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:40 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:40 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:40 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:40 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:42 INFO  FillFormTest       - TEST: Click contact us
+2026-02-12 16:34:42 INFO  UniversityPage     - PAGE: Click contactUs button
+2026-02-12 16:34:43 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:43 INFO  FillFormTest       - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-12 16:34:43 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:43 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:43 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:43 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:44 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:44 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:44 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:44 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:44 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:44 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:45 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:45 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:45 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:45 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:45 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:45 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:46 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:46 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:46 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:49 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:49 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:49 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:49 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:49 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:49 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:49 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:49 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:49 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:50 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:50 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:50 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:50 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:50 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:50 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:34:50 INFO  FillFormTest       - TEST: fill the form
+2026-02-12 16:34:50 INFO  FormPage           - PAGE: Filling the form
+2026-02-12 16:34:56 INFO  FillFormTest       - TEST: Submit the form
+2026-02-12 16:34:56 INFO  FormPage           - PAGE: Click submit button
+2026-02-12 16:34:56 INFO  FormPage           - PAGE: Return the alert
+2026-02-12 16:34:56 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:34:56 INFO  FillFormTest       - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-12 16:34:56 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:34:56 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:35:00 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:35:00 INFO  FillFormTest       - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-12 16:35:00 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:35:00 INFO  FillFormTest       - Closing the browser
+2026-02-12 16:35:06 INFO  FillFormTest       - TEST: If the test is negative, check if the alert is present and resultMessage will be 'PASS'
+2026-02-12 16:35:06 INFO  FillFormTest       - TEST: If the test is positive, if the alert is not present, resultMessage will be 'PASS'
+2026-02-12 16:35:06 INFO  FillFormTest       - TEST: write the content in resultMessage into the excel sheet
+2026-02-12 16:35:06 INFO  FillFormTest       - Closing the browser

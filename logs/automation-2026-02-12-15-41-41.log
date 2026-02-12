@@ -1,0 +1,60 @@
+2026-02-12 15:41:41 INFO  searchSeleniumTest - Setting up the browser: EDGE
+2026-02-12 15:41:41 INFO  searchSeleniumTest - Setting up the browser: CHROME
+2026-02-12 15:41:49 INFO  searchSeleniumTest - TEST: Search Selenium Java
+2026-02-12 15:41:49 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-12 15:41:50 INFO  searchSeleniumTest - TEST: Search Selenium Java
+2026-02-12 15:41:50 INFO  HomePage           - PAGE: Searching for: Selenium Java
+2026-02-12 15:41:57 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-12 15:41:58 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-12 15:41:59 INFO  SearchResultPage   - PAGE: filtering based on duration of course
+2026-02-12 15:42:00 INFO  searchSeleniumTest - Closing the browser
+2026-02-12 15:42:01 INFO  SearchResultPage   - PAGE: Printing the first course title in the console
+2026-02-12 15:42:02 ERROR SearchResultPage   - Exception Handled :stale element reference: stale element not found in the current frame
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f8a89c9790b63d571bceb965638d731, getElementText {id=f.A2DB1066A5978CBC322F39C0920665AD.d.704CB566DC34C197AF8F3DE40B4F3B43.e.124}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2400875\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61486}, goog:processID: 21032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4f8a89c9790b63d571bceb965638d731)] -> xpath: //h3[contains(@class,'cds-CommonCard-title css-6ecy9b')]]
+Session ID: 4f8a89c9790b63d571bceb965638d731
+2026-02-12 15:42:02 INFO  searchSeleniumTest - Closing the browser
+2026-02-12 15:42:07 INFO  findLevelTest      - Setting up the browser: CHROME
+2026-02-12 15:42:07 INFO  findLevelTest      - Setting up the browser: EDGE
+2026-02-12 15:42:13 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-12 15:42:13 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-12 15:42:14 INFO  findLevelTest      - TEST: Extracting the level of the first Python course
+2026-02-12 15:42:14 INFO  HomePage           - PAGE: Selecting the first python course
+2026-02-12 15:42:23 INFO  PythonPage         - PAGE: Switching tab after clicking first Python course
+2026-02-12 15:42:23 INFO  PythonPage         - PAGE: Printing the level of the course in console
+2026-02-12 15:42:29 INFO  PythonPage         - PAGE: Switching tab after clicking first Python course
+2026-02-12 15:42:29 INFO  PythonPage         - PAGE: Printing the level of the course in console
+2026-02-12 15:42:29 INFO  findLevelTest      - Closing the browser
+2026-02-12 15:42:31 INFO  findLevelTest      - Closing the browser
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: EDGE
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 15:42:37 INFO  FillFormTest       - Setting up the browser: CHROME
+2026-02-12 15:43:05 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:43:05 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:43:28 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:43:28 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:43:36 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:43:36 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:43:49 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:43:49 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:44:11 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:44:11 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:44:11 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:44:11 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:44:18 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:44:18 INFO  HomePage           - PAGE: Navigating to forUniversities page
+2026-02-12 15:44:46 INFO  FillFormTest       - TEST: Navigate to universities
+2026-02-12 15:44:46 INFO  HomePage           - PAGE: Navigating to forUniversities page

@@ -13,7 +13,6 @@ import java.time.Duration;
 public class BaseTest {
     protected final Logger log = LogManager.getLogger(this.getClass());
     protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-
     public WebDriver getDriver(){
         return driver.get();
     }
@@ -21,11 +20,12 @@ public class BaseTest {
     @BeforeMethod
     @Parameters("browser")
     public void setUp(String browserName){
-        log.info("Setting up the browser");
         WebDriver localDriver;
         if(browserName.equalsIgnoreCase("chrome")){
+            log.info("Setting up the browser: CHROME");
             localDriver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("edge")) {
+            log.info("Setting up the browser: EDGE");
             System.getProperty("webdriver.edge.driver","src/main/resources/msedgedriver.exe");
             localDriver = new EdgeDriver();
         }else{
@@ -35,6 +35,7 @@ public class BaseTest {
         driver.set(localDriver);
         getDriver().get("https://www.coursera.org/");
         getDriver().manage().window().maximize();
+        getDriver().manage().deleteAllCookies();
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 

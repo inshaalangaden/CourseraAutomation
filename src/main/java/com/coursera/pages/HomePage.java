@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomePage extends BasePage {
 
@@ -18,7 +19,7 @@ public class HomePage extends BasePage {
     //Web elements
     @FindBy(id="search-autocomplete-input") WebElement searchInput;
     @FindBy(css="button[data-testid='megamenu-explore-button']") WebElement exploreButton;
-    @FindBy(css="a[data-track-href='/courses?query=python']") WebElement python;
+    @FindBy(css="a[data-track-href='/courses?query=python'] , a[to='/courses?query=python']") WebElement pythonLink;
     @FindBy(css = "a[data-click-key='front_page.front_page_story.click.navigation_meta_nav_Campus']") WebElement forUniversities;
 
     //Methods
@@ -32,7 +33,7 @@ public class HomePage extends BasePage {
         log.info("PAGE: Selecting the first python course");
         Actions action = new Actions(driver);
         action.moveToElement(exploreButton).perform();
-        python.click();
+        wait.until(ExpectedConditions.visibilityOf(pythonLink)).click();
     }
 
     public void navigateToUniversities(){
